@@ -179,6 +179,7 @@ void network_task(void * param)
             debug_println(controller_command.left_stick_lr);
 
             handle_controller_input(&controller_command);
+            
         }
     }
 }
